@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaTelegram, FaEnvelope } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { personalInfo } from '../data/portfolio';
 import { SectionHeader } from './About';
@@ -8,8 +8,7 @@ import { SectionHeader } from './About';
 const socialLinks = [
   { icon: FaGithub, href: personalInfo.github, label: 'GitHub', color: '#fff' },
   { icon: FaLinkedin, href: personalInfo.linkedin, label: 'LinkedIn', color: '#0A66C2' },
-  { icon: FaXTwitter, href: personalInfo.twitter, label: 'X (Twitter)', color: '#fff' },
-  { icon: FaInstagram, href: personalInfo.instagram, label: 'Instagram', color: '#E1306C' },
+  { icon: FaTelegram, href: personalInfo.telegram, label: 'Telegram', color: '#E1306C' },
   { icon: FaEnvelope, href: `mailto:${personalInfo.email}`, label: 'Email', color: '#4483BE' },
 ];
 

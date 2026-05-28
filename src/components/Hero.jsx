@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaTelegram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { Link } from 'react-scroll';
 import { personalInfo } from '../data/portfolio';
@@ -10,8 +10,8 @@ import profileImg from '../assets/profile.jpg';
 const socialLinks = [
   { icon: FaGithub, href: personalInfo.github, label: 'GitHub' },
   { icon: FaLinkedin, href: personalInfo.linkedin, label: 'LinkedIn' },
-  { icon: FaXTwitter, href: personalInfo.twitter, label: 'X' },
-  { icon: FaInstagram, href: personalInfo.instagram, label: 'Instagram' },
+  { icon: FaTelegram, href: personalInfo.telegram, label: 'Telegram'},
+  { icon: FaEnvelope, href: personalInfo.email, label: 'Email'},
 ];
 
 const Starfield = () => {

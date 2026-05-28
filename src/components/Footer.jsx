@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaInstagram, FaHeart } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaHeart, FaTelegram, FaEnvelope } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { Link } from 'react-scroll';
 import { personalInfo } from '../data/portfolio';
@@ -18,8 +18,8 @@ const navLinks = [
 const socials = [
   { icon: FaGithub, href: personalInfo.github, label: 'GitHub' },
   { icon: FaLinkedin, href: personalInfo.linkedin, label: 'LinkedIn' },
-  { icon: FaXTwitter, href: personalInfo.twitter, label: 'X' },
-  { icon: FaInstagram, href: personalInfo.instagram, label: 'Instagram' },
+  { icon: FaTelegram, href: personalInfo.telegram, label: 'Telegram' },
+  { icon: FaEnvelope, href: personalInfo.email, label: 'Email' },
 ];
 
 const Footer = () => {
@@ -48,7 +48,7 @@ const Footer = () => {
                 S
               </div>
               <div>
-                <p className="font-bold theme-heading text-lg leading-tight">Suraj G Rao</p>
+                <p className="font-bold theme-heading text-lg leading-tight">Ronald Max</p>
                 <p className="theme-muted text-xs">AI/ML Engineer</p>
               </div>
             </div>
@@ -94,7 +94,7 @@ const Footer = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                Mysore/Mangalore, India
+                Avenue West/Ottawa, Canada
               </p>
             </div>
 
@@ -129,7 +129,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="theme-muted text-xs flex items-center gap-1.5">
             Built with <FaHeart className="text-red-500 text-xs" /> by{' '}
-            <span className="theme-body font-medium">Suraj G Rao</span> · {new Date().getFullYear()}
+            <span className="theme-body font-medium">Ronald Max</span> · {new Date().getFullYear()}
           </p>
           <p className="theme-muted text-xs">
             Crafted with React · Tailwind · Framer Motion
