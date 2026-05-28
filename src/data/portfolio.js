@@ -262,42 +262,6 @@ export const projects = [
     category: "MLOps + ML",
     featured: false,
   },
-  {
-    title: "Student Performance Prediction",
-    description:
-      "Developed an end-to-end ML pipeline to predict student academic performance with Flask deployment and Dockerized production setup. Full MLOps lifecycle with MLflow tracking.",
-    tech: ["Python", "Flask", "Docker", "Scikit-learn", "MLflow"],
-    github: "https://github.com/Suraj-G-Rao/Student-Performance-Prediction",
-    color: "#06B6D4",
-    gradient: "from-cyan-600/20 to-blue-600/10",
-    icon: "📊",
-    category: "MLOps + ML",
-    featured: false,
-  },
-  {
-    title: "Student Performance Prediction",
-    description:
-      "Developed an end-to-end ML pipeline to predict student academic performance with Flask deployment and Dockerized production setup. Full MLOps lifecycle with MLflow tracking.",
-    tech: ["Python", "Flask", "Docker", "Scikit-learn", "MLflow"],
-    github: "https://github.com/Suraj-G-Rao/Student-Performance-Prediction",
-    color: "#06B6D4",
-    gradient: "from-cyan-600/20 to-blue-600/10",
-    icon: "📊",
-    category: "MLOps + ML",
-    featured: false,
-  },
-  {
-    title: "Student Performance Prediction",
-    description:
-      "Developed an end-to-end ML pipeline to predict student academic performance with Flask deployment and Dockerized production setup. Full MLOps lifecycle with MLflow tracking.",
-    tech: ["Python", "Flask", "Docker", "Scikit-learn", "MLflow"],
-    github: "https://github.com/Suraj-G-Rao/Student-Performance-Prediction",
-    color: "#06B6D4",
-    gradient: "from-cyan-600/20 to-blue-600/10",
-    icon: "📊",
-    category: "MLOps + ML",
-    featured: false,
-  },
 ];
 
 export const achievements = [
