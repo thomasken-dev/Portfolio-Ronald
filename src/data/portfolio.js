@@ -6,7 +6,7 @@ export const personalInfo = {
   about:
     "I have hands-on experience in Machine Learning, Deep Learning, Generative AI, ML and Backend Development. My work spans building fraud detection systems, GenAI-powered knowledge graph applications, and deploying production-ready ML systems. I also have industry experience as a Trainee Software Engineer.",
   email: "ronald741210@outlook.com",
-  github: "https://github.com/https://github.com/ronaldmax525",
+  github: "https://github.com/ronaldmax525",
   linkedin: "https://www.linkedin.com/in/ronaldmax",
   telegram: "https://www.telegram.org/computer_general_525",
 };
