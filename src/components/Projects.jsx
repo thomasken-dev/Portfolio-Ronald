@@ -141,7 +141,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="mt-14 text-center"
         >
-          <a href="https://github.com/Suraj-G-Rao" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/ronaldmax525" target="_blank" rel="noopener noreferrer">
             <motion.button
               type="button"
               whileHover={{ scale: 1.05 }}
